@@ -1,6 +1,11 @@
 dist
 node_modules
-.env
+build
+
+logs
 *.log
+npm-debug.log*
+
+.temp
+.env
 src/generated/prisma
-prisma/migrations
